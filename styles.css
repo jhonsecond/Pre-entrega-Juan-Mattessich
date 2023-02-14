@@ -1,5 +1,5 @@
 .homeBody {
-    background-image: url('./images/image1.png');
+    background-image: url('./images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -9,7 +9,7 @@
 }
 
 .socialBody {
-    background-image: url('./images/image2.png');
+    background-image: url('./images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -19,7 +19,7 @@
 }
 
 .contactBody {
-    background-image: url('./images/image3.png');
+    background-image: url('./images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -29,7 +29,7 @@
 }
 
 .aboutBody {
-    background-image: url('./images/image4.png');
+    background-image: url('./images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -45,8 +45,8 @@
 }
 
 .tileHome {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     margin: 10px;
 }
 
@@ -61,7 +61,7 @@
 
 .ulPages {
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     list-style-type: none
 }
 
