@@ -1,61 +1,71 @@
 .homeBody {
-    background-image: url('./images/hol2.jpg');
+    background-image: url('../images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: auto;
     padding-top: 50px;
-    text-align:
-    color pink;
     padding: 45px;
+    direction: column;
+
 }
 
 .socialBody {
-    background-image: url('./images/hol2.jpg');
+    background-image: url('../images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: auto;
     padding-top: 50px;
+    padding: 45px;
+    direction: column;
 }
 
 .contactBody {
-    background-image: url('./images/hol2.jpg');
+    background-image: url('../images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: auto;
     padding-top: 50px;
+    padding: 45px;
+    direction: column;
 }
 
 .aboutBody {
-    background-image: url('./images/hol2.jpg');
+    background-image: url('../images/hol2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
-    width: 100vw;
+    min-height: 100vh;
+    width: auto;
     padding-top: 50px;
+    padding: 45px;
+    direction: column;
 }
 
 .ulTile {
     display: flex;
     justify-content: center;
-    list-style-type: none
+    list-style-type: none;
+    flex-wrap: wrap;
+
 }
 
 .tileHome {
-    width: 300px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     margin: 10px;
+    flex-wrap: wrap;
+
 }
 
 .tileHome:hover {
-    width: 500px;
-    height: 700px;
+    width: 250px;
+    height: 150px;
     transform: translateY(-5px);
     box-shadow: 0 12px 16px #000000b8;
     transition: all 0.25s;
@@ -65,7 +75,15 @@
 .ulPages {
     display: flex;
     justify-content:flex-start;
-    list-style-type: none
+    list-style-type: none;
+    flex-wrap: wrap;
+
+}
+
+.ulFooter {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
 
 .pageHome {
@@ -117,10 +135,36 @@
     font-size: x-large;
 }
 
+.textLeft {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+.textFormat {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
 .textCenter {
     display: flex;
+    align-items: left;
+    justify-content: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 10px;
+    color: white;
+}
+
+.textRight {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     margin: 10px;
@@ -166,12 +210,12 @@
 }
 
 .landingBody{
-    background-image: url('./images/image0.jpg');
+    background-image: url('../images/image0.jpg');
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
-    width: 100vw;
+    width: auto;
 }
 
 .titleLanding{
@@ -191,3 +235,10 @@
     margin-top: -50px;
     margin-left: -100px;
 }
+
+.textBox{
+    width: 500px;
+    height: 500px;
+    padding: 60px;
+}
+
