@@ -62,7 +62,7 @@
     justify-content: flex-start;
     list-style-type: none;
     flex-wrap: wrap;
-
+    align-items: center;
 }
 
 .tileHome {
@@ -82,7 +82,7 @@
 
 .ulPages {
     display: flex;
-    justify-content:flex-start;
+    justify-content: flex-start;
     align-items: flex-end;
     list-style-type: none;
     flex-wrap: wrap;
@@ -188,12 +188,12 @@
     font-size: 20px;
 }
 
-.landingA{
+.landingA {
     text-decoration: none;
     color: #fff;
 }
 
-.buttonLanding{
+.buttonLanding {
     background-color: #32a42e;
     border: 1px solid rgba(27, 31, 35, .15);
     border-radius: 6px;
@@ -213,31 +213,32 @@
 .buttonLanding:hover {
     background-color: #2c9737;
 }
-  
+
 .buttonLanding:active {
-    background-color:#388622;
+    background-color: #388622;
 }
 
-.landingBody{
+.landingBody {
     background-image: url('../images/image0.jpg');
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
     width: auto;
 }
 
-.titleLanding{
+.titleLanding {
     background-color: #1e9e1c73;
     padding: 6px 16px;
     position: relative;
     text-align: center;
     vertical-align: middle;
-    margin: 2px;  
+    margin: 2px;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
-.elementsLanding{
+
+.elementsLanding {
     position: fixed;
     top: 50%;
     left: 45%;
@@ -245,20 +246,20 @@
     margin-left: -100px;
 }
 
-.textBox{
+.textBox {
     width: 500px;
     height: 500px;
     padding: 60px;
 }
 
-.tileText{
+.tileText {
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
 }
 
-.tileH1{
+.tileH1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
